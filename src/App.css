@@ -1,3 +1,30 @@
+.H1Tittle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.SVG {
+  height: 24px;
+  width: 24px;
+  margin-right: 20px;
+}
+
+.CantidadCarrito{
+  position: absolute;
+  display: block;
+  color: white;
+  background-color: red;
+  border-radius: 99px;
+  font-size: 14px;
+  text-align: center;
+  height: 20px;
+  width: 20px;
+  top: 10px;
+  right: 20px;
+}
+
 .App {
   text-align: center;
 }
