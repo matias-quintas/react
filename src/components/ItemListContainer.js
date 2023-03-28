@@ -1,7 +1,9 @@
-export default function ItemListContainer(){
+export default function ItemListContainer({greeting}){
     return (
-        <div className="H1Tittle">
-            <h1>Hola</h1>
+        <div className='GreetingStyle'>
+            <img src={greeting.img}/>
+            <h2>{greeting.title}</h2>
+            <p>Cantidad: <span>{greeting.quantity}</span></p>
         </div>
     );
 }

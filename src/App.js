@@ -1,12 +1,19 @@
-import logo from './logo.svg';
+import myImage from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar.js';
-import ItemListContainer from './components/ItemListContainer.js';
+import ItemListContainer from './components/ItemListContainer';
 
 export default function App() {
   return (
     <><NavBar />
-    <ItemListContainer />
+      <ItemListContainer 
+
+        greeting={{
+          img: myImage,
+          title: 'Producto 1',
+          quantity: '2'
+        }}
+      />
     </>
     // <div className="App">
     //   <header className="App-header">

@@ -1,8 +1,33 @@
-.H1Tittle {
+.GreetingStyle * {
+  margin: 0;
+  padding: 0;
+}
+
+.GreetingStyle {
+  position: fixed;
+  background-color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding: 2em;
+  padding: 20px;
+  color: #282c34;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  min-width: 550px;
+}
+
+.GreetingStyle img {
+  max-width: 80px;
+}
+
+.GreetingStyle p, .GreetingStyle h2 {
+  color: #282c34;
+  font-size: 20px;
+}
+
+.GreetingStyle span {
+  font-size: 24px;
+  font-weight: bold;
+  color: red;
 }
 
 .SVG {
