@@ -1,9 +1,8 @@
-export default function ItemListContainer({greeting}){
-    return (
-        <div className='GreetingStyle'>
-            <img src={greeting.img}/>
-            <h2>{greeting.title}</h2>
-            <p>Cantidad: <span>{greeting.quantity}</span></p>
-        </div>
-    );
+const ItemListContainer = () => {
+  return (
+    <div className='ItemListContainer'>
+    </div>
+  );
 }
+
+export default ItemListContainer;

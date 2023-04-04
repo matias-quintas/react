@@ -1,3 +1,11 @@
+/***** Diseños Header.js *****/
+
+.Logo-img {
+  max-height: 50px;
+}
+
+/***** *****/
+
 .GreetingStyle * {
   margin: 0;
   padding: 0;
