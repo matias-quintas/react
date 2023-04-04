@@ -21,11 +21,7 @@ const NavBar = () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li><a className="nav-link" href="#">Teclados Electrónicos</a></li>
-            <li><a className="nav-link" href="#">Pianos Electrónicos</a></li>
-            <li><a className="nav-link" href="#">Sintetizadores</a></li>
-            <li><a className="nav-link" href="#">Amplificadores</a></li>
-            <li><a className="nav-link" href="#">Accesorios</a></li>
+            <Link path='/category/:categoryId'>Teclados Electrónicos</Link>
           </ul>
           <CartWidget />
         </div>

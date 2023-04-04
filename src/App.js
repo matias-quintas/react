@@ -23,8 +23,6 @@ const App = () => {
                 quantity: '2'
               }}
             />} />
-            <Route path='/category/:id' />
-            <Route path='/item/:id' />
           </Routes>
         </div>
       </Router>

@@ -1,7 +1,11 @@
+import {Link} from "react-router-dom";
+
 const Item = () => {
-    return (
-        <div className="Item"></div>
-    )
+  return (
+    <Link to="/item/:id">
+      <div className="Item"></div>
+    </Link>
+  )
 }
 
 export default Item;
